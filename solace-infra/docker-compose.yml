@@ -1,0 +1,6 @@
+solace-infra:
+  build: .
+  ports:
+    - "3000:3000"
+  volumes:
+    - ${PWD}/.env:/usr/app/.env
